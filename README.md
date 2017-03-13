@@ -1,8 +1,8 @@
 
 
-# <b>Meteorological Computer Applications</b>
+# Meteorological Computer Applications
 
-## <b>Fortran and Python for Meteorologists</b>
+## Fortran and Python for Meteorologists
  
 
 by: <br>
