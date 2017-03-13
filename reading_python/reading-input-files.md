@@ -47,8 +47,9 @@ Here is an example script reading in a series of temperatures from the fiel (`in
 # The following line will open the file that we wish to read in and use in the program.
 infile = open('input.txt','r')
 
-# This line will read in one line from the file, split the line on the commas and assign the values
-# to the variables on the left hand side. Note that you can put all five variables on the left hand side.
+# This line will read in one line from the file, split the line on the commas 
+# and assign the values to the variables on the left hand side. Note that you 
+# can put all five variables on the left hand side.
 tmpf1 = infile.readline()
 tmpf2 = infile.readline()
 tmpf3 = infile.readline()
