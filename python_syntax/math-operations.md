@@ -39,4 +39,4 @@ Not much change is needed for conversion to Python for logical statements, other
 |   .AND. |   &    |
 |   .OR.  |   \|   |
 
-That last symbol for an or statement is the pipe symbol (or vertical line), which is access with the shift key while hitting the forward slash (\) key.
+That last symbol for an or statement is the pipe symbol (or vertical line), which is access with the shift key while hitting the forward slash ( \\ ) key.
