@@ -22,7 +22,8 @@ In a way Python combines the two lines that we had to use in Fortran into one. *
 Here is an example script that will read from commandline input.
 
 ```py
-# This python script is designed to illustrate how to read in a parameter from the command line
+# This python script is designed to illustrate how to read 
+# in a parameter from the command line
 #
 # By: Kevin Goebbert
 
