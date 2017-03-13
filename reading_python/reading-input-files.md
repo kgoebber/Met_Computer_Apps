@@ -66,11 +66,11 @@ tmpf3 = float(tmpf3)
 tmpf4 = float(tmpf4)
 tmpf5 = float(tmpf5)
 
-tmpc1 = (5/9)*(tmpf1 + 32)
-tmpc2 = (5/9)*(tmpf2 + 32)
-tmpc3 = (5/9)*(tmpf3 + 32)
-tmpc4 = (5/9)*(tmpf4 + 32)
-tmpc5 = (5/9)*(tmpf5 + 32)
+tmpc1 = (5/9)*(tmpf1 - 32)
+tmpc2 = (5/9)*(tmpf2 - 32)
+tmpc3 = (5/9)*(tmpf3 - 32)
+tmpc4 = (5/9)*(tmpf4 - 32)
+tmpc5 = (5/9)*(tmpf5 - 32)
 
 # This is my code from the Fortran program, unchanged,
 # to calculate the different temperatures and compute the means!
@@ -100,10 +100,10 @@ which gives the output
 The original temperatures in Fahrenheit were: 
 35.0 48.0 81.0 78.0 30.0
 The converted temperatures in Celsius are: 
-37.22222222222222 44.44444444444444 62.77777777777778 61.111111111111114 34.44444444444444
+1.6666666666666667 8.88888888888889 27.222222222222225 25.555555555555557 -1.1111111111111112
 The converted temperatures in Kelvin are: 
-310.3722222222222 317.59444444444443 335.92777777777775 334.26111111111106 307.59444444444443
-The mean temperature in Celsius is: 48.0
+274.81666666666666 282.0388888888889 300.3722222222222 298.7055555555555 272.0388888888889
+The mean temperature in Celsius is: 12.444444444444445
 The mean temperature in Fahrenheit is: 54.4
-The mean temperature in Kelvin is: 321.15
+The mean temperature in Kelvin is: 285.59444444444443
 ```
