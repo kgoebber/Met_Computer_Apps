@@ -49,7 +49,7 @@ You can copy the code above to a file \(e.g., read\_command.py\) and then to run
 ```
 
 When you run the program it will first display the question "Type your first name " and the cursor will remain on that same line. It is then waiting for your response and will only move on once you hit the ENTER key. Once you have entered your first name, then it will propmt the second statement "Type your last name" and will put the cursor on a new line due to the `\n` newline character. It will again wait until you have entered something before proceeding with the remainder of the program and finally output the final print stament containing the values that you input from the commandline.
-<div class="pagebreak"></div>
+
 ## Reading From a File
 
 To open a file in a Python program you need to use an open command, which is similar to the one used in Fortran. The open command needs to be set to a variable name (sometimes called a handle), which will have attributes that you will use to read from that particular file. This handle is similar to the unit number used in Fortran to identify the read file.
