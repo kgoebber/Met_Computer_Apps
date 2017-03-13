@@ -2,7 +2,10 @@
 
 * [Cover Page](README.md)
 
-* [Introduction](introduction/README.md)
+### Introduction
+* [Overview](introduction/introduction.md)
 
-* [Reading in Python](reading_python/README.md)
+### Reading in Python
+* [Commandline Reading](reading_python/reading-input-commandline.md)
+* [File Reading](reading_python/reading-input-files.md)
 
