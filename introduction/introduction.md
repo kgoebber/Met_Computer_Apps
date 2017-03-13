@@ -1,4 +1,4 @@
-# 1.0 Welcome and Objective
+## Welcome and Objective
 
 Welcome to MET 330: Meteorological Computer Applications!
 
