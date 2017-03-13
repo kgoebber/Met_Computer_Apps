@@ -2,7 +2,7 @@
 
 * [Cover Page](README.md)
 
-* [PartI](introduction/introduction.md)
+* [Introduction](introduction/README.md)
 
-* [PartII](reading_python/reading-input-in-python.md)
+* [Reading in Python](reading_python/README.md)
 
