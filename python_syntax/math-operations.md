@@ -12,15 +12,15 @@ The order of operations is same as well and be sure to use parentheses to have t
 
 Equation Examples:
 * Temperature from Fahrenheit to Celsius
-```py
+```py3
     tmpc = (5/9)*(tmpf - 32)
 ```
 * Temperature from Celsius to Kelvin
-```py
+```py3
     tmpk = 273.15 + tmpc
 ```
 * Poisson's Equation (Potential Temperature)
-```py
+```py3
     theta = tmpk * (1000/p)**(287/1004)
 ```
 
