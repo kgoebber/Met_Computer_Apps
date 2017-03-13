@@ -1,6 +1,8 @@
 # Summary
 
 * [Cover Page](README.md)
-* [Introduction](introduction.md)
-* [Reading Input in Python](reading-input-in-python.md)
+
+* [PartI](introduction/introduction.md)
+
+* [PartII](reading_python/reading-input-in-python.md)
 
