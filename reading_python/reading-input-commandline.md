@@ -2,7 +2,7 @@
 
 There are times when we want to be able to have the person running a program give input after being asked a question. We used this feature in Fortran and we had a simple read statement;
 
-```FortranLexer
+```fortran
 print*, "Input your first name: "
 read(*,*) firstname
 ```
