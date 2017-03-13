@@ -1,7 +1,3 @@
-# Reading Input in Python
-
-There are a lot of different ways to read data into a Python program. This chapter will review some of the basic input methods from the commandline as well as some easy methods through various modules.
-
 ## Reading Data From the Command Line
 
 There are times when we want to be able to have the person running a program give input after being asked a question. We used this feature in Fortran and we had a simple read statement;
