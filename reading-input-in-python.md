@@ -1,4 +1,8 @@
-# Reading Data From the Command Line
+# Reading Input in Python
+
+There are a lot of different ways to read data into a Python program. This chapter will review some of the basic input methods from the commandline as well as some easy methods through various modules.
+
+## Reading Data From the Command Line
 
 There are times when we want to be able to have the person running a program give input after being asked a question. We used this feature in Fortran and we had a simple read statement;
 
@@ -13,7 +17,9 @@ In python we need to use a function called `raw_input()`
 firstname = raw_input("Input your first name: ")
 ```
 
-In a way Python combines the two lines that we had to use in Fortran into one. Here is an example script that will read from commandline input.
+In a way Python combines the two lines that we had to use in Fortran into one. **Note:** using this method the Python interpreter assumes a string format for your input. However, Python makes it easy to convert between types by using the `int()`,`str()`, or`float()`functions to convert to the desired data type.
+
+Here is an example script that will read from commandline input.
 
 ```py
 # This python script is designed to illustrate how to read in a parameter from the command line
