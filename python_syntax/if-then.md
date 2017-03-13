@@ -5,7 +5,7 @@ The logic of if-then statements works in exactly the same way, just the syntax c
 Here is an example of equivalent if statements in Fortran and Python.
 
 **Fortran**
-```FortranLexer
+```fortran
 a = 5
 b = 10
 if (a .LT. b) then
@@ -18,7 +18,7 @@ print*, "Out of if"
 ```
 
 **Python**
-```py
+```py3
 a = 5
 b = 10
 if (a < b):
@@ -29,6 +29,6 @@ else:
    print(b)
 
 print("Out of if")
-```|
+```
 
 Notice the colons in the Python code after the if logical statement as well as the else and no “endif”. The unindented nature of the print statement at the end tells the Python program that we are no longer in the if statement.
