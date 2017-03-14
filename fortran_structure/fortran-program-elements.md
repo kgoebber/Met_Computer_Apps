@@ -21,7 +21,7 @@ This will take some time to get comfortable with, and there will be plenty of ti
 
 <!--![alt](https://github.com/kgoebber/Met_Computer_Apps/blob/master/fortran_structure/example_Fortran_code.png)-->
 
-<img src="https://github.com/kgoebber/Met_Computer_Apps/blob/master/fortran_structure/example_Fortran_code.png" width=750><br>
+<img src="https://raw.githubusercontent.com/kgoebber/Met_Computer_Apps/master/fortran_structure/example_Fortran_code.png" width=750><br>
 
 Here is another example and this one uses the continuation line in the middle of the temperature conversion equation.
 
