@@ -9,6 +9,7 @@
    * [Creating, Compiling, Running Code](fortran_structure/fortran-compiling.md)
    * [Defining Data Types](fortran_structure/fortran-datatypes.md)
    * [Variable Assignment](fortran_structure/fortran-variable-assignment.md)
+   * [Math Operators and Some Functions](fortran_structure/fortran-math.md)
 * [Basic Python Syntax](python_syntax/README.md)
    * [Mathematical and Logical Operations](python_syntax/math-operations.md)
    * [If/Then Statements](python_syntax/if-then.md)
