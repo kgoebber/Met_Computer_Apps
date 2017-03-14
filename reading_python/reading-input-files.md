@@ -1,6 +1,6 @@
 ## Reading From a File
 
-To open a file in a Python program you need to use an open command, which is similar to the one used in Fortran. The open command needs to be set to a variable name (sometimes called a handle), which will have attributes that you will use to read from that particular file. This handle is similar to the unit number used in Fortran to identify the read file.
+To open a file in a Python program you need to use an open command, which is similar to the one used in Fortran. The open command needs to be set to a variable name \(sometimes called a handle\), which will have attributes that you will use to read from that particular file. This handle is similar to the unit number used in Fortran to identify the read file.
 
 In Python and open command for writing and reading are given below:
 
@@ -8,7 +8,7 @@ In Python and open command for writing and reading are given below:
 infile = open('input.txt', 'r')
 ```
 
-The variable name `infile` identifies the file (`input.txt`) within the program and with the `'r'` signifies that we are opening the file to read. To open a file for writing you would use the same construct but change the `'r'` to `'w'` which will open a file for writing to it. You can also open a file with read and write permissions with `'rw'`.
+The variable name `infile` identifies the file \(`input.txt`\) within the program and with the `'r'` signifies that we are opening the file to read. To open a file for writing you would use the same construct but change the `'r'` to `'w'` which will open a file for writing to it. You can also open a file with read and write permissions with `'rw'`.
 
 To read a line we have a slightly different command in Python. If we want to read from the infile variable defined above, then we would issue the following command in our program:
 
@@ -16,7 +16,7 @@ To read a line we have a slightly different command in Python. If we want to rea
 infile.readline()
 ```
 
-This will read exactly one line from our file (infile) and be ready to read the next line down if we were to call `infile.readline()` again. This is the same as the Fortran READ statement. For every readline() that is called in Python, it will read one line and move down to the next line ready to read again.
+This will read exactly one line from our file \(infile\) and be ready to read the next line down if we were to call `infile.readline()` again. This is the same as the Fortran READ statement. For every readline\(\) that is called in Python, it will read one line and move down to the next line ready to read again.
 
 If `input.txt` contained the following data:
 
@@ -27,6 +27,7 @@ If `input.txt` contained the following data:
 78
 30
 ```
+
 the first instance of `infile.readline()` would read the value 35, the second would move down one line and read the value 48, etc. Again these values will be strings and can be easily converted to another datatype as need using Python's built-in methods. If there are multiple lines, it is best to use a loop to read into a list or array.
 
 A different method in Python is that you can read all of the lines at once using the following command:
@@ -35,9 +36,9 @@ A different method in Python is that you can read all of the lines at once using
 infile.readlines()
 ```
 
-This is a nice feature, but it acts a little differently than the readline() command. It will read all of the lines in at once and create a list of strings. One downside of reading by this method is that trailing newline (`\n`) character will remain with the read in value (e.g., '35\n').
+This is a nice feature, but it acts a little differently than the readline\(\) command. It will read all of the lines in at once and create a list of strings. One downside of reading by this method is that trailing newline \(`\n`\) character will remain with the read in value \(e.g., '35\n'\).
 
-Here is an example script reading in a series of temperatures from the fiel (`input.txt`).
+Here is an example script reading in a series of temperatures from the fiel \(`input.txt`\).
 
 ```py
 # This program reads input from 'input.txt'
@@ -95,7 +96,9 @@ print("The mean temperature in Celsius is: "+str(meanc))
 print("The mean temperature in Fahrenheit is: "+str(meanf))
 print("The mean temperature in Kelvin is: "+str(meank))
 ```
+
 which gives the output
+
 ```linux
 The original temperatures in Fahrenheit were: 
 35.0 48.0 81.0 78.0 30.0
@@ -107,3 +110,6 @@ The mean temperature in Celsius is: 12.444444444444445
 The mean temperature in Fahrenheit is: 54.4
 The mean temperature in Kelvin is: 285.59444444444443
 ```
+
+
+
