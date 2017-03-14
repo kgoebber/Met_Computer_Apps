@@ -20,7 +20,7 @@ The first few columns of a Fortan 77 program are reserved for specific functiona
 This will take some time to get comfortable with, and there will be plenty of time to practice! Below is an example of a simple Fortran program written on a grid to demonstrate the different rows and columns with the first six columns reserved according to the specifications in the table above. Any line that contains an appropriate comment character (e.g., !), the whole line becomes a comment and you can write yourself notes about what is going on in the program. All other lines begin at the seventh column.
 
 <!--![alt](https://github.com/kgoebber/Met_Computer_Apps/blob/master/fortran_structure/example_Fortran_code.png)-->
-<img src="https://github.com/kgoebber/Met_Computer_Apps/blob/master/fortran_structure/example_Fortran_code.png" width=750>
+<img src="https://github.com/kgoebber/Met_Computer_Apps/fortran_structure/example_Fortran_code.png" width=750>
 
 Here is another example and this one uses the continuation line in the middle of the temperature conversion equation.
 
