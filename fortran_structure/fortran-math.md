@@ -48,7 +48,7 @@ Integer division is problematic in Fortran in that it gives only the integer val
 
 ## Functions
 
-There are also a number of built in mathematical functions that are quite useful. A reminder that the Sine and Cosine functions expect the input value in Radians, so if you have a value in degrees a conversion is necessary (&pi; /180). The `MAX` and `MIN ` functions require a series of values to be input to determine the appropriate value.
+There are also a number of built in mathematical functions that are quite useful. A reminder that the Sine and Cosine functions expect the input value in Radians, so if you have a value in degrees a conversion is necessary (&pi;/180). The `MAX` and `MIN ` functions require a series of values to be input to determine the appropriate value.
 
 | Function | Description | Data Type of Input | Data Type of Output |
 | :------: | :---------: | :---------: | :---------: |
