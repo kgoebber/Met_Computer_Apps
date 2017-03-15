@@ -1,6 +1,6 @@
 ## Fortran Program Elements
 
-Fortran is not a free-form language (especially Fortan 77, which is what is being used here) and has some *very* script rules for how source code is written. This largely stems from the history of Fortran and the limited to store infromation locally on a computer. As a result, early coding utilized punch cards that contained exactly one line of code per card (see example below). As a result, there were only a limited number of spaces available on a line (e.g., 72, 80) and the beginning of each line has reserved functionality, which is described below. You can even create your own punch cards [today](http://www.masswerk.at/keypunch/) and experience what it was like for programmers of yore...just don't drop your box of cards!
+Fortran is not a free-form language (especially Fortran 77, which is what is being used here) and has some *very* script rules for how source code is written. This largely stems from the history of Fortran and the limited to store information locally on a computer. As a result, early coding utilized punch cards that contained exactly one line of code per card (see example below). As a result, there were only a limited number of spaces available on a line (e.g., 72, 80) and the beginning of each line has reserved functionality, which is described below. You can even create your own punch cards [today](http://www.masswerk.at/keypunch/) and experience what it was like for programmers of yore...just don't drop your box of cards!
 
 <!-- ![alt](https://upload.wikimedia.org/wikipedia/commons/5/58/FortranCardPROJ039.agr.jpg) -->
 <img src="https://upload.wikimedia.org/wikipedia/commons/5/58/FortranCardPROJ039.agr.jpg" width="500"><br>
@@ -8,7 +8,7 @@ Fortran is not a free-form language (especially Fortan 77, which is what is bein
 
 ## Column Structure
 
-The first few columns of a Fortan 77 program are reserved for specific functionality
+The first few columns of a Fortran 77 program are reserved for specific functionality
 
 | Column Number | What you can do...|
 |---------------|-------------------|
@@ -33,7 +33,7 @@ Here is another example and this one uses the continuation line in the middle of
 !ccccccccccccccccccccccccccc
       implicit none
       real tc, tk
-      
+
       tc = 273.15 +
      + tk
 ! The sixth column is a line continuation

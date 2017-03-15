@@ -1,6 +1,6 @@
 ## Fortran Data Types and Defining Variables
 
-In order for a Fortran compiler to know how to convert your source code into object code, it needs to know what type of variables you have. Is the variable a number? If so, is it just an integer or is it real (does it have decimal values)? Or is the variable a logic value (i.e., True or False)? While it may seem cumbersome to have to define a varaiables type, it is always useful to the programmer to know and tell the program what the data type of a variable should be.
+In order for a Fortran compiler to know how to convert your source code into object code, it needs to know what type of variables you have. Is the variable a number? If so, is it just an integer or is it real (does it have decimal values)? Or is the variable a logic value (i.e., True or False)? While it may seem cumbersome to have to define a variables type, it is always useful to the programmer to know and tell the program what the data type of a variable should be.
 
 ### Data Types
 
@@ -26,7 +26,7 @@ In Fortran the best practice is to declare the type of each variable before you 
       character*5  name
       logical  pass
 ```
-Above the program defines three integer values (i, j, k), two real values (sum and avg), one character value with length 5 (name), and a logical variable (pass). If we were to use a variable that we haven't defined (e.g., temp) Fortran was go aheard and assume an implicit type based on the first letter of the variable.
+Above the program defines three integer values (i, j, k), two real values (sum and avg), one character value with length 5 (name), and a logical variable (pass). If we were to use a variable that we haven't defined (e.g., temp) Fortran will go ahead and assume an implicit type based on the first letter of the variable.
 
 * Implicit Data Types
   * Variables beginning with I,J,K,L,M, or N are implied integers
@@ -40,7 +40,7 @@ So our variable `temp` would have an implicit type of real based on the implicit
       character*5  name
       logical  pass
 ```
-The above variable definitions will only allow for those specific variables. If another variable was added somewhere in the code that was not defined it would yield a compliation error that says that variable (e.g., temp) has no implicity type. For example,
+The above variable definitions will only allow for those specific variables. If another variable was added somewhere in the code that was not defined it would yield a compilation error that says that variable (e.g., temp) has no implicity type. For example,
 ```
 Error: Symbol ‘temp’ at (1) has no IMPLICIT type
 ```

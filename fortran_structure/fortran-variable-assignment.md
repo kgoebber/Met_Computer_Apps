@@ -20,14 +20,14 @@ It will only store five characters when you go to assign the variable. So if we 
 
 ```fortran
       PROGRAM names
-      
+
       implicit none
       character*5 name
-      
+
       name = 'matthew'
-      
+
       print*, "My name is ",name
-      
+
       END PROGRAM
 ```
 would yield the following output

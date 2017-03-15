@@ -20,7 +20,7 @@ Best practice is to include parentheses to help highlight the correct mathematic
 * Addition/Subtraction
 
   Common addition and subtraction work as expected with the added component that if the operation contains both an integer and a real, then the output is real. In the event that you set the output equal to a variable that was defined as an integer, then only the integer value (to the left of the decimal point) will be retained.
-```fortran 
+```fortran
     5 + 3 = 8
 5.0 + 3.0 = 8.0
   5 – 3.0 = 2.0
