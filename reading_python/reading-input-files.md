@@ -38,7 +38,7 @@ infile.readlines()
 
 This is a nice feature, but it acts a little differently than the readline\(\) command. It will read all of the lines in at once and create a list of strings. One downside of reading by this method is that trailing newline \(`\n`\) character will remain with the read in value \(e.g., '35\n'\).
 
-Here is an example script reading in a series of temperatures from the fiel \(`input.txt`\).
+Here is an example script reading in a series of temperatures from the file \(`input.txt`\).
 
 ```py
 # This program reads input from 'input.txt'
@@ -48,8 +48,8 @@ Here is an example script reading in a series of temperatures from the fiel \(`i
 # The following line will open the file that we wish to read in and use in the program.
 infile = open('input.txt','r')
 
-# This line will read in one line from the file, split the line on the commas 
-# and assign the values to the variables on the left hand side. Note that you 
+# This line will read in one line from the file, split the line on the commas
+# and assign the values to the variables on the left hand side. Note that you
 # can put all five variables on the left hand side.
 tmpf1 = infile.readline()
 tmpf2 = infile.readline()
@@ -100,16 +100,13 @@ print("The mean temperature in Kelvin is: "+str(meank))
 which gives the output
 
 ```linux
-The original temperatures in Fahrenheit were: 
+The original temperatures in Fahrenheit were:
 35.0 48.0 81.0 78.0 30.0
-The converted temperatures in Celsius are: 
+The converted temperatures in Celsius are:
 1.6666666666666667 8.88888888888889 27.222222222222225 25.555555555555557 -1.1111111111111112
-The converted temperatures in Kelvin are: 
+The converted temperatures in Kelvin are:
 274.81666666666666 282.0388888888889 300.3722222222222 298.7055555555555 272.0388888888889
 The mean temperature in Celsius is: 12.444444444444445
 The mean temperature in Fahrenheit is: 54.4
 The mean temperature in Kelvin is: 285.59444444444443
 ```
-
-
-

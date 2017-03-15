@@ -18,18 +18,18 @@ In a way Python combines the two lines that we had to use in Fortran into one. *
 Here is an example script that will read from commandline input.
 
 ```py
-# This python script is designed to illustrate how to read 
+# This python script is designed to illustrate how to read
 # in a parameter from the command line
 #
 # By: Kevin Goebbert
 
 # To input from the command line, use the raw_input() command
 
-# The prompt for the input goes inside of the raw_input command 
+# The prompt for the input goes inside of the raw_input command
 # and is bounded by quote marks.
 firstname = raw_input("Type your first name ")
 
-# Same as the above command, but with a newline (\n) character 
+# Same as the above command, but with a newline (\n) character
 # to make it look nicer on the screen.
 lastname = raw_input("Type your last name \n")
 
@@ -45,4 +45,4 @@ You can copy the code above to a file \(e.g., read\_command.py\) and then to run
 > python read_commandline.py
 ```
 
-When you run the program it will first display the question "Type your first name " and the cursor will remain on that same line. It is then waiting for your response and will only move on once you hit the ENTER key. Once you have entered your first name, then it will propmt the second statement "Type your last name" and will put the cursor on a new line due to the `\n` newline character. It will again wait until you have entered something before proceeding with the remainder of the program and finally output the final print stament containing the values that you input from the commandline.
+When you run the program it will first display the question "Type your first name " and the cursor will remain on that same line. It is then waiting for your response and will only move on once you hit the ENTER key. Once you have entered your first name, then it will prompt the second statement "Type your last name" and will put the cursor on a new line due to the `\n` newline character. It will again wait until you have entered something before proceeding with the remainder of the program and finally output the final print statement containing the values that you input from the commandline.
