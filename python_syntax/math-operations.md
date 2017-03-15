@@ -5,8 +5,8 @@ A really nice thing about moving from Fortran to Python is that all of the mathe
 * Addition 		(+)
 * Subtraction 		(-)
 * Division 		(/)
-* Multiplication 	(*)
-* Exponentiation 	(**)
+* Multiplication 	(\*)
+* Exponentiation 	(\*\*)
 
 The order of operations is same as well and be sure to use parentheses to have the computer complete your calculations the way you intend it to. There is a slight change in some of the language around the types used in Python, but just remember that in Python Floats and Integers work the same as Reals and Integers in Fortran.
 
