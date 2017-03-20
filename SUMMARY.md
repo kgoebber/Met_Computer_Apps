@@ -12,6 +12,8 @@
    * [Math Operators and Some Functions](fortran_structure/fortran-math.md)
    * [Simple Input/Output](fortran_structure/fortran-input-output.md)
    * [File Input/Output](fortran_structure/fortran-file-input-output.md)
+* [Fortran Selective Execution](fortran_selective_execution/README.md)
+   * [Logical Expressions](fortran_selective_execution/fortran-logical-expression.md)
 * [Basic Python Syntax](python_syntax/README.md)
    * [Mathematical and Logical Operations](python_syntax/math-operations.md)
    * [If/Then Statements](python_syntax/if-then.md)
