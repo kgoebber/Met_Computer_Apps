@@ -10,10 +10,11 @@
    * [Defining Data Types](fortran_structure/fortran-datatypes.md)
    * [Variable Assignment](fortran_structure/fortran-variable-assignment.md)
    * [Math Operators and Some Functions](fortran_structure/fortran-math.md)
+   * [Simple Input/Output](fortran_structure/fortran-input-output.md)
+   * [File Input/Output](fortran_structure/fortran-file-input-output.md)
 * [Basic Python Syntax](python_syntax/README.md)
    * [Mathematical and Logical Operations](python_syntax/math-operations.md)
    * [If/Then Statements](python_syntax/if-then.md)
 * [Reading in Python](reading_python/README.md)
    * [Commandline Reading](reading_python/reading-input-commandline.md)
    * [File Reading](reading_python/reading-input-files.md)
-
