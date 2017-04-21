@@ -41,7 +41,7 @@ As long as all the grades were on the same line in the file
 It is good coding practice to close the file that you are reading from or writing to once the program is done completing the read/write. This has a couple of benefits in that is frees up the unit number to be used elsewhere in the program and additionally frees up computer memory.
 
 ```fortran
-close(unit=#)  
+close(unit=#)
   or
 close(#)
 ```
