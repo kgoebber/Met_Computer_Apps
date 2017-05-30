@@ -37,6 +37,6 @@ Not much change is needed for conversion to Python for logical statements, other
 |   .EQ.  |   ==   |
 |   .NE.  |   !=   |
 |   .AND. |   &    |
-|   .OR.  |   \|   |
+|   .OR.  |   &#124;   |
 
 That last symbol for an or statement is the pipe symbol (or vertical line), which is accessed with the shift key while hitting the forward slash ( \\ ) key.
