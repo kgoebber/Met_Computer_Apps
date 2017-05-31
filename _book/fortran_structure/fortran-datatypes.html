@@ -1,0 +1,595 @@
+<!DOCTYPE HTML>
+<html lang="en-US" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <title>Defining Data Types | Meteorological Computer Applications</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 1.0.3">
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    
+    
+    
+    <link rel="next" href="../fortran_structure/fortran-variable-assignment.html" />
+    
+    
+    <link rel="prev" href="../fortran_structure/fortran-compiling.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+<link rel="stylesheet" href="../gitbook/style.css">
+
+
+        
+    <div class="book"  data-level="2.4" data-basepath=".." data-revision="1496172339003">
+    
+
+<div class="book-summary">
+    <div class="book-search">
+        <input type="text" placeholder="Type to search" class="form-control" />
+    </div>
+    <ul class="summary">
+        
+    	
+    	
+    	
+
+        
+
+        
+    
+        
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                        <i class="fa fa-check"></i>
+                        
+                         Cover Page
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="1" data-path="introduction/README.html">
+            
+                
+                    <a href="../introduction/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                         Introduction
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="1.1" data-path="introduction/introduction.html">
+            
+                
+                    <a href="../introduction/introduction.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.</b>
+                        
+                         Overview
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="2" data-path="fortran_structure/README.html">
+            
+                
+                    <a href="../fortran_structure/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                         Introduction to Fortran
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="2.1" data-path="fortran_structure/fortran-code-program.html">
+            
+                
+                    <a href="../fortran_structure/fortran-code-program.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                         About Program Code
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="2.2" data-path="fortran_structure/fortran-program-elements.html">
+            
+                
+                    <a href="../fortran_structure/fortran-program-elements.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                         Program Elements
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="2.3" data-path="fortran_structure/fortran-compiling.html">
+            
+                
+                    <a href="../fortran_structure/fortran-compiling.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.</b>
+                        
+                         Creating, Compiling, Running Code
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter active" data-level="2.4" data-path="fortran_structure/fortran-datatypes.html">
+            
+                
+                    <a href="../fortran_structure/fortran-datatypes.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.4.</b>
+                        
+                         Defining Data Types
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="2.5" data-path="fortran_structure/fortran-variable-assignment.html">
+            
+                
+                    <a href="../fortran_structure/fortran-variable-assignment.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.5.</b>
+                        
+                         Variable Assignment
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="2.6" data-path="fortran_structure/fortran-math.html">
+            
+                
+                    <a href="../fortran_structure/fortran-math.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.6.</b>
+                        
+                         Math Operators and Some Functions
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="2.7" data-path="fortran_structure/fortran-input-output.html">
+            
+                
+                    <a href="../fortran_structure/fortran-input-output.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.7.</b>
+                        
+                         Simple Input/Output
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="2.8" data-path="fortran_structure/fortran-file-input-output.html">
+            
+                
+                    <a href="../fortran_structure/fortran-file-input-output.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.8.</b>
+                        
+                         File Input/Output
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3" data-path="fortran_selective_execution/README.html">
+            
+                
+                    <a href="../fortran_selective_execution/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                         Fortran Selective Execution
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="3.1" data-path="fortran_selective_execution/fortran-logical-expressions.html">
+            
+                
+                    <a href="../fortran_selective_execution/fortran-logical-expressions.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.</b>
+                        
+                         Logical Expressions
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="4" data-path="python_syntax/README.html">
+            
+                
+                    <a href="../python_syntax/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                         Basic Python Syntax
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="4.1" data-path="python_syntax/math-operations.html">
+            
+                
+                    <a href="../python_syntax/math-operations.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.</b>
+                        
+                         Mathematical and Logical Operations
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="4.2" data-path="python_syntax/if-then.html">
+            
+                
+                    <a href="../python_syntax/if-then.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.2.</b>
+                        
+                         If/Then Statements
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="5" data-path="reading_python/README.html">
+            
+                
+                    <a href="../reading_python/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.</b>
+                        
+                         Reading in Python
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="5.1" data-path="reading_python/reading-input-commandline.html">
+            
+                
+                    <a href="../reading_python/reading-input-commandline.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.</b>
+                        
+                         Commandline Reading
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="5.2" data-path="reading_python/reading-input-files.html">
+            
+                
+                    <a href="../reading_python/reading-input-files.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.2.</b>
+                        
+                         File Reading
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+
+        
+        <li class="divider"></li>
+        <li>
+            <a href="http://www.gitbook.io/" target="blank" class="gitbook-link">Published using GitBook</a>
+        </li>
+        
+    </ul>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header">
+    <!-- Actions Left -->
+    <a href="#" class="btn pull-left toggle-summary" aria-label="Toggle summary"><i class="fa fa-align-justify"></i></a>
+    <a href="#" class="btn pull-left toggle-search" aria-label="Toggle search"><i class="fa fa-search"></i></a>
+    
+    <div id="font-settings-wrapper" class="dropdown pull-left">
+        <a href="#" class="btn toggle-dropdown" aria-label="Toggle font settings"><i class="fa fa-font"></i>
+        </a>
+        <div class="dropdown-menu font-settings">
+    <div class="dropdown-caret">
+        <span class="caret-outer"></span>
+        <span class="caret-inner"></span>
+    </div>
+
+    <div class="buttons">
+        <button type="button" id="reduce-font-size" class="button size-2">A</button>
+        <button type="button" id="enlarge-font-size" class="button size-2">A</button>
+    </div>
+
+    <div class="buttons font-family-list">
+        <button type="button" data-font="0" class="button">Serif</button>
+        <button type="button" data-font="1" class="button">Sans</button>
+    </div>
+
+    <div class="buttons color-theme-list">
+        <button type="button" id="color-theme-preview-0" class="button size-3" data-theme="0">White</button>
+        <button type="button" id="color-theme-preview-1" class="button size-3" data-theme="1">Sepia</button>
+        <button type="button" id="color-theme-preview-2" class="button size-3" data-theme="2">Night</button>
+    </div>
+</div>
+
+    </div>
+
+    <!-- Actions Right -->
+    
+    <div class="dropdown pull-right">
+        <a href="#" class="btn toggle-dropdown" aria-label="Toggle share dropdown"><i class="fa fa-share-alt"></i>
+        </a>
+        <div class="dropdown-menu font-settings dropdown-left">
+            <div class="dropdown-caret">
+                <span class="caret-outer"></span>
+                <span class="caret-inner"></span>
+            </div>
+            <div class="buttons">
+                <button type="button" data-sharing="twitter" class="button">Twitter</button>
+                <button type="button" data-sharing="google-plus" class="button">Google</button>
+                <button type="button" data-sharing="facebook" class="button">Facebook</button>
+                <button type="button" data-sharing="weibo" class="button">Weibo</button>
+                <button type="button" data-sharing="instapaper" class="button">Instapaper</button>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <a href="#" target="_blank" class="btn pull-right google-plus-sharing-link sharing-link" data-sharing="google-plus" aria-label="Share on Google Plus"><i class="fa fa-google-plus"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right facebook-sharing-link sharing-link" data-sharing="facebook" aria-label="Share on Facebook"><i class="fa fa-facebook"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right twitter-sharing-link sharing-link" data-sharing="twitter" aria-label="Share on Twitter"><i class="fa fa-twitter"></i></a>
+    
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" >Meteorological Computer Applications</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-gitbook_11">
+                    
+                        <h2 id="fortran-data-types-and-defining-variables">Fortran Data Types and Defining Variables</h2>
+<p>In order for a Fortran compiler to know how to convert your source code into object code, it needs to know what type of variables you have. Is the variable a number? If so, is it just an integer or is it real (does it have decimal values)? Or is the variable a logic value (i.e., True or False)? While it may seem cumbersome to have to define a variables type, it is always useful to the programmer to know and tell the program what the data type of a variable should be.</p>
+<h3 id="data-types">Data Types</h3>
+<p>The first major part of any Fortran program is the defining of variables. There are a number of different data types that can be used in a Fortran program, the most common are integer, real, and character.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Data Types</th>
+<th style="text-align:center">Example Values</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">integer</td>
+<td style="text-align:center">1, 3, 5, 7, 9</td>
+</tr>
+<tr>
+<td style="text-align:center">real (single precision)</td>
+<td style="text-align:center">1.5, 5.3, 6.817845, 99.9</td>
+</tr>
+<tr>
+<td style="text-align:center">double precision</td>
+<td style="text-align:center">6.81784590374815</td>
+</tr>
+<tr>
+<td style="text-align:center">complex</td>
+<td style="text-align:center">3 + 6i</td>
+</tr>
+<tr>
+<td style="text-align:center">character (string)</td>
+<td style="text-align:center">tmpc</td>
+</tr>
+<tr>
+<td style="text-align:center">logical</td>
+<td style="text-align:center">true or false</td>
+</tr>
+</tbody>
+</table>
+<p>A single precision real number is a decimal value with 6-7 values after the decimal point, whereas a double precision real number is a decimal value with 14 to 15 values after the decimal point. The main difference being how much memory is available to store the information. The more memory you allocate means keeping a larger number of digits and increased &quot;precision&quot;.</p>
+<h3 id="defining-variables">Defining Variables</h3>
+<p>In Fortran the best practice is to declare the type of each variable before you use it</p>
+<pre><code class="lang-fortran">      integer  i, j, k
+      real  sum, avg
+      character*5  name
+      logical  pass
+</code></pre>
+<p>Above the program defines three integer values (i, j, k), two real values (sum and avg), one character value with length 5 (name), and a logical variable (pass). If we were to use a variable that we haven&#39;t defined (e.g., temp) Fortran will go ahead and assume an implicit type based on the first letter of the variable.</p>
+<ul>
+<li>Implicit Data Types<ul>
+<li>Variables beginning with I,J,K,L,M, or N are implied integers</li>
+<li>Variables beginning with A-H or O-Z are implied reals</li>
+</ul>
+</li>
+</ul>
+<p>So our variable <code>temp</code> would have an implicit type of real based on the implicit data types above. This is not good practice and you should always define ALL variables used in Fortran. A way to insure that you do define all of your variables is to declare that you want no implicit variables with a declaration of <code>implicit none</code>.</p>
+<pre><code class="lang-fortran">      implicit none
+      integer  i, j, k
+      real  sum, avg
+      character*5  name
+      logical  pass
+</code></pre>
+<p>The above variable definitions will only allow for those specific variables. If another variable was added somewhere in the code that was not defined it would yield a compilation error that says that variable (e.g., temp) has no implicity type. For example,</p>
+<pre><code>Error: Symbol ‘temp’ at (1) has no IMPLICIT type
+</code></pre><p>and you would need to add a definition of that variable if in fact you want to use it within your program.</p>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../fortran_structure/fortran-compiling.html" class="navigation navigation-prev " aria-label="Previous page: Creating, Compiling, Running Code"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../fortran_structure/fortran-variable-assignment.html" class="navigation navigation-next " aria-label="Next page: Variable Assignment"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="https://cdn.mathjax.org/mathjax/2.4-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-mathjax/plugin.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"fontSettings":{"theme":null,"family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>

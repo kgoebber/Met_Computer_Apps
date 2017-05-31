@@ -34,7 +34,7 @@ So to compile our helloworld.for program we would type the following at the comm
 The `-o` option means we are specifying the name of our object code (the computer readable code) and we called it `helloworld.o`. There is no need to specify a suffix (e.g., `.o`), we do that for our human benefit only. We could have also named our object code `helloworld.exe` since it is our executable code.
 
 ### Compile Errors?
-* If you get what looks like an error message after typing this pay attention to what it says.  
+* If you get what looks like an error message after typing this pay attention to what it says.
   * If it says: Notice: blah blah, that’s fine its just telling you something that it found as odd
   * If it says: Warning: blah, blah, some problems exist, but are not fatal
   * If it says: Error: blah, blah, you’ve got to fix the problem, your program won’t run successfully
