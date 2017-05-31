@@ -20,6 +20,8 @@
     * [Do Loops](fortran_repetitive_execution/fortran-do-loops.md)
     * [Nested Do Loops](fortran_repetitive_execution/fortran-nested-do-loops.md)
     * [Do While Loops](fortran_repetitive_execution/fortran-while-loops.md)
+* [Fortran 1D Arrays](fortran_1D_arrays/README.md)
+* [Fortran 2D Arrays](fortran_2D_arrays/README.md)
 * [Basic Python Syntax](python_syntax/README.md)
     * [Mathematical and Logical Operations](python_syntax/math-operations.md)
     * [If/Then Statements](python_syntax/if-then.md)
