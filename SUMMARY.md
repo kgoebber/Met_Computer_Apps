@@ -18,6 +18,8 @@
     * [Compound Logical Expressions](fortran_selective_execution/fortran-compound-logical-expressions.md)
 * [Fortran Repetitive Execution](fortran_repetitive_execution/README.md)
     * [Do Loops](fortran_repetitive_execution/fortran-do-loops.md)
+    * [Nested Do Loops](fortran_repetitive_execution/fortran-nested-do-loops.md)
+    * [Do While Loops](fortran_repetitive_execution/fortran-while-loops.md)
 * [Basic Python Syntax](python_syntax/README.md)
     * [Mathematical and Logical Operations](python_syntax/math-operations.md)
     * [If/Then Statements](python_syntax/if-then.md)
