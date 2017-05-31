@@ -62,4 +62,4 @@ Try it!
 
 - Create a do loop to prompt the user five times for a surface pressure
 
-- After all five have been read, compute an average surface pressure and print to the screenÂ
+- After all five have been read, compute an average surface pressure and print to the screen
