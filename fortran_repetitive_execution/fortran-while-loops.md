@@ -7,7 +7,7 @@ Fortran Syntax
 ```fortran
 do while (logical-exp)
 
-    sequence statements
+    statement-sequence
 
 enddo
 ```
@@ -15,7 +15,7 @@ or
 ```fortran
 while (logical-exp) do
 
-    statements
+    statement-sequence
 
 end while
 ```

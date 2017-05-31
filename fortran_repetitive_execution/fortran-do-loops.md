@@ -6,7 +6,7 @@ The following is the syntax for a do loop in Fortran.
 ```fortran
         DO n control-var = initial-value, limit, step-value
 
-             statement sequence
+             statement-sequence
 
  n      continue
 ```

@@ -9,7 +9,7 @@ The IF Statement uses a logical expression to determine whether to perform the t
 ```fortran
 IF (logical-expression) THEN
 
-   statement sequence
+   statement-sequence
 
 END IF
 ```
@@ -34,15 +34,15 @@ There might be times when there are a number of conditions that you want to test
 ```fortran
 IF (logical-expression-1) THEN
 
-   statement sequence
+   statement-sequence
 
 ELSE IF (logical-expression-2) THEN
 
-   statement sequence
+   statement-sequence
 
 ELSE
 
-   statement sequence
+   statement-sequence
 
 END IF
 ```
