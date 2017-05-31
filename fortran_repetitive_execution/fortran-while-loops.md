@@ -1,13 +1,6 @@
 ## While Loops
 
-- Control with a logical expression
-  - repeating the loop is based on the outcome of the logical expression
-
-- Repetition for an unknown number of times
-  - repetition continues for a true logical expression
-  - repetition ends for a false logical expression
-  - this is called a WHILE loop
-  - not part of standard FORTRAN
+There are times where a loop is needed for an unceratin number of iterations. This is often the case when code is iterating to a convergent solution. Therefore, we can loop using a logical expression to repeat the loop as much as needed until the logical expression is no longer True. This was not a part of standard Fortran, but is acceptable to use when needed.
 
 Fortran Syntax
 
@@ -26,6 +19,8 @@ while (logical-exp) do
 
 end while
 ```
+where the `logical-exp` is a logical expression of the same form as for IF statements. They can be simple or compound. Just make sure that the statement can be false at some point, otherwise you'll create an infinite loop!
+
 ### DO WHILE Loop Examples
 
 ```fortran
