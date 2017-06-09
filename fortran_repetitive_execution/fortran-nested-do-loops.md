@@ -7,7 +7,7 @@ There will be times when you will need to loop over more than one variable, whic
 ```fortran
        do 100 iyear=2000, 2002
 
-           do 200 j= 2,6
+           do 200 j=2,6
 
               print *, 'Year = ', iyear, 'Month = ', j
 

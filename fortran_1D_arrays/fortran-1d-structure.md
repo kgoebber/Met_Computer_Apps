@@ -24,7 +24,7 @@ The addresses of an array are simpler that street addresses as they are always s
 
 One-dimensional Array (of size 4)
 
-```
+```fortran
         tmpf(1) = 28.6
 
         tmpf(2) = 30.5
@@ -34,3 +34,11 @@ One-dimensional Array (of size 4)
         tmpf(4) = 0.2
 ```
 Notice: same name each time, but with varying addresses
+
+A 1D array can also be defined by making a list. For example,
+
+```fortran
+tmpf = (/28.6, 30.5, -10.3, 0.2/)
+```
+
+This is equivalent to specifying them separately with each unique address. The key is to have the list within the parentheses and a forward slash. The array can be accessed and used in any normal fashion, including being modified by another part of the code.
