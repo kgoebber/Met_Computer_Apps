@@ -5,21 +5,21 @@ There are times where a loop is needed for an unceratin number of iterations. Th
 Fortran Syntax
 
 ```fortran
-do while (logical-exp)
+do while (logical_exp)
 
-    statement-sequence
+    statement_sequence
 
 enddo
 ```
 or
 ```fortran
-while (logical-exp) do
+while (logical_exp) do
 
-    statement-sequence
+    statement_sequence
 
 end while
 ```
-where the `logical-exp` is a logical expression of the same form as for IF statements. They can be simple or compound. Just make sure that the statement can be false at some point, otherwise you'll create an infinite loop!
+where the `logical_exp` is a logical expression of the same form as for IF statements. They can be simple or compound. Just make sure that the statement can be false at some point, otherwise you'll create an infinite loop!
 
 ### DO WHILE Loop Examples
 

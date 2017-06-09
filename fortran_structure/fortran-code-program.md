@@ -9,7 +9,7 @@ Since Fortran is a compiled language there are two components to any program, 1\
        ! by: Kevin Goebbert
        !ccccccccccccccccccccccccc
 
-       print*, "Hello World"
+       print *, "Hello World"
 
        END PROGRAM
 ```

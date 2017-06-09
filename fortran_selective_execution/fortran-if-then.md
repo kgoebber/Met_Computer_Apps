@@ -7,9 +7,9 @@ When programming, there will be many times when you want to only do certain comm
 The IF Statement uses a logical expression to determine whether to perform the tasks that are contained within the IF. Recall that the "value" of an logical expression can be **True** or **False**, therefore, only when the logical expression is **True** will it perform the tasks within the statement. In Fortran the following is an example of the structure of a simple IF statement.
 
 ```fortran
-IF (logical-expression) THEN
+IF (logical_expression) THEN
 
-   statement-sequence
+   statement_sequence
 
 END IF
 ```
@@ -32,21 +32,21 @@ END IF
 There might be times when there are a number of conditions that you want to test for and do certain things as a result in your code. In this circumstance you will want to use a combination of IF, ELSE IF, ELSE statements. The structure of the complex IF statements in Fortran are as follows.
 
 ```fortran
-IF (logical-expression-1) THEN
+IF (logical_expression-1) THEN
 
-   statement-sequence
+   statement_sequence
 
-ELSE IF (logical-expression-2) THEN
+ELSE IF (logical_expression-2) THEN
 
-   statement-sequence
+   statement_sequence
 
 ELSE
 
-   statement-sequence
+   statement_sequence
 
 END IF
 ```
-The execution of this code is sequential and will **only** perform the first statement that is **True**. For example, if `logical-expression-1` is True, then your program would execute the statement sequence within that part of the IF statement and continue at the END IF without testing `logical-expression-2` or completing the tasks after ELSE. So the only time that the statement sequence after the ELSE command will be executed is if *both* `logical-statement-1` and `logical-statement-2` are **False**.
+The execution of this code is sequential and will **only** perform the first statement that is **True**. For example, if `logical_expression-1` is True, then your program would execute the statement sequence within that part of the IF statement and continue at the END IF without testing `logical_expression-2` or completing the tasks after ELSE. So the only time that the statement sequence after the ELSE command will be executed is if *both* `logical_expression-1` and `logical_expression-2` are **False**.
 
 Selective Control helps to refine problem solving to allow one program to do different things depending on some condition. At the same time, our program code is still executed in sequential order.
 

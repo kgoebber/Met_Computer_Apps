@@ -22,7 +22,7 @@ A single precision real number is a decimal value with 6-7 values after the deci
 In Fortran the best practice is to declare the type of each variable before you use it
 ```fortran
       integer  i, j, k
-      real  sum, avg
+      real  mslp, avg
       character*5  name
       logical  pass
 ```
@@ -36,7 +36,7 @@ So our variable `temp` would have an implicit type of real based on the implicit
 ```fortran
       implicit none
       integer  i, j, k
-      real  sum, avg
+      real  mslp, avg
       character*5  name
       logical  pass
 ```

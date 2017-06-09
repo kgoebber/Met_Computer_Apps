@@ -37,7 +37,7 @@ Here is another example and this one uses the continuation line in the middle of
       tc = 273.15 +
      + tk
 ! The sixth column is a line continuation
-      print*, tk
+      print *, tk
       END PROGRAM
 ```
 

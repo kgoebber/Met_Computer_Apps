@@ -12,21 +12,21 @@ which is an abstract equation that will take the values assigned to `length` and
 
 Another way to think of a variable is giving a value an alias in the computer code, so you can refer back to it later (or change its value, compute a new value, etc.).
 
-Assigning character variables require you to know its length. For example, if we defined the variable `name` with
+Assigning character variables require you to know its length. For example, if we defined the variable `fname` with
 ```fortran
-CHARACTER*5 name
+CHARACTER*5 fname
 ```
-It will only store five characters when you go to assign the variable. So if we were to assign the value "kevin" to `name` we would retain all five letters, but if we were to try and assign "matthew" the variable value would only retain the first five characters and the actual variable value would be `matth`. For example, the following program
+It will only store five characters when you go to assign the variable. So if we were to assign the value "kevin" to `fname` we would retain all five letters, but if we were to try and assign "matthew" the variable value would only retain the first five characters and the actual variable value would be `matth`. For example, the following program
 
 ```fortran
       PROGRAM names
 
       implicit none
-      character*5 name
+      character*5 fname
 
-      name = 'matthew'
+      fname = 'matthew'
 
-      print*, "My name is ",name
+      print *, "My name is ", fname
 
       END PROGRAM
 ```

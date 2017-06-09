@@ -32,7 +32,7 @@ Remember that there is such a thing as a logical variable in Fortran, so the abo
 
       test = x .LT. y
 
-      print*, "The statement is ",test
+      print *, "The statement is ",test
 
       END PROGRAM
 ```

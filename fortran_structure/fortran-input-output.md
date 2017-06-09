@@ -22,7 +22,7 @@ For example, suppose you have the following code to convert temperatures in Kelv
 
       tmpc = tmpk - 273.15
 
-      print*, tmpc
+      print *, tmpc
 
       END PROGRAM
 ```
@@ -62,7 +62,7 @@ Our modified temperature conversion program using a read statement could be writ
 
       tmpc = tmpk - 273.15
 
-      print*, tmpc
+      print *, tmpc
 
       END PROGRAM
 ```
@@ -73,7 +73,7 @@ Now the program allows the user to input a value when they run the program. So i
 You likely already noticed the method for simple file output that has been used a couple of times already, `print*`. There are two simple methods for displaying output to the screen ("standard output")
 
 ```fortran
-		print*, list
+		print *, list
 		write(*,*) list
 ```		
 Again the `*` is the character that allows the compiler to know that the output should go to the screen. So for our temperature conversion script the output is the temperature in degrees Celsius.
