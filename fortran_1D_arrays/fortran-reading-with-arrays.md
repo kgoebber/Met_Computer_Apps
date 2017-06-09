@@ -37,7 +37,7 @@ Most likely a file is going to contain a number of values that might be best sto
 real tmpf(4)
 integer i
 
-OPEN(unit=12,file='temp.dat',status='unknown')
+OPEN(unit=12,file='temps.dat',status='unknown')
 
 do i=1,4
    read(12,*) tmpf(i)
