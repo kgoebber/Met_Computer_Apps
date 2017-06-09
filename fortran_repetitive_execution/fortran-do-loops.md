@@ -4,9 +4,9 @@ There will be many times in coding where you will want/need to do the same set o
 
 The following is the syntax for a do loop in Fortran.
 ```fortran
-        DO n control-var = initial-value, limit, step-value
+        DO n control-var = initial-val, limit, step-val
 
-             statement-sequence
+             program statements
 
  n      continue
 ```
