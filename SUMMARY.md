@@ -25,7 +25,7 @@
     * [Array Structure](fortran_1D_arrays/fortran-1d-structure.md)
     * [Parameter Statement](fortran_1D_arrays/fortran-parameter-statement.md)
     * [Reading with Arrays](fortran_1D_arrays/fortran-reading-with-arrays.md)
-* [Fortran 2D Arrays](fortran_2D_arrays/README.md)
+* [Fortran 2D Arrays](fortran_nD_arrays/README.md)
 * [Basic Python Syntax](python_syntax/README.md)
     * [Mathematical and Logical Operations](python_syntax/math-operations.md)
     * [If/Then Statements](python_syntax/if-then.md)
