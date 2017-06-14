@@ -26,21 +26,22 @@ Recall that each time a Fortran program encounters a `READ` statement, it moves 
 |62|55|76|
 |56|36|81|
 
-* Two dimensional array – implied do loop
+* Example script to read into a two-dimensional array with an implied do loop
 ```fortran
-       PROGRAM
+        PROGRAM implieddo
+        INTEGER row, col
+        REAL TEMP(4,3)
 
-       REAL TEMP(4,3)
-
-       OPEN(UNIT=12,FILE='data.dat',STATUS='unknown')
+        OPEN(UNIT=12,FILE='data.dat',STATUS='unknown')
   c skip first line header
-       READ(12,*)
+        READ(12,*)
 
-       DO COL = 1,4
-          READ(12,*) ,(TEMP(COL,ROW), row=1,3)
-       END DO
+        DO row = 1,4
+           READ(12,*) ,(TEMP(row,col), col=1,3)
+        END DO
 
-       end
+        PRINT *, TEMP
+
+        end
 ```
-* This reads 4 lines of data
- * with 3 data values per line
+* This reads 4 lines of data with 3 data values per line

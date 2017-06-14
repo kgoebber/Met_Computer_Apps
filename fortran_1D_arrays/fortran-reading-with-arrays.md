@@ -45,3 +45,9 @@ enddo
 
 end
 ```
+
+### Video Example
+
+Here is a video example explaining what is going on with the program when using a do loop to read in data from a file to one-dimensional array.
+
+[![1D Array Reading](http://img.youtube.com/vi/cPA_8IyeEw4/0.jpg)](https://www.youtube.com/watch?v=ÂcPA_8IyeEw4)
