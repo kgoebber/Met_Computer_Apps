@@ -6,7 +6,7 @@ First you must declare the parameter statement variable (e.g., LEN), then you ca
 
 ```fortran
 INTEGER LEN
-PARAMETER  (LEN=24)
+PARAMETER (LEN=24)
 REAL TEMP(LEN), SPD(LEN), PMSL(LEN), DEWPT(LEN)
 ```
 

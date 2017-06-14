@@ -50,9 +50,13 @@ close(#)
 * Works very similarly to reading from a file
 * Must first “OPEN” the file to write to it
 
-`OPEN(UNIT=number,FILE=file-name,STATUS=status)`
+```fortran
+OPEN(UNIT=number,FILE=file-name,STATUS=status)
+```
 
 * Here the status is critical
  * Status of ‘Old’ or ‘Unknown’ will overwrite a file, while ‘new’ will not
 
-`WRITE(20,*) mean`
+```fortran
+WRITE(20,*) mean
+```

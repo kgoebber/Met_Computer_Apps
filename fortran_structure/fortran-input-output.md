@@ -24,7 +24,7 @@ For example, suppose you have the following code to convert temperatures in Kelv
 
       print *, tmpc
 
-      END PROGRAM
+      END
 ```
 
 Once the above program is compiled it will only be able to convert the temperature of 288K to degrees Celsius. Only by going in and changing that value, then compiling, then running the program would you be able to convert a different value. This is wildly inefficient. Luckily, Fortran gives us an easy method for allowing us to read in a value when we execute the program. This requires a `read` statement.
@@ -64,7 +64,7 @@ Our modified temperature conversion program using a read statement could be writ
 
       print *, tmpc
 
-      END PROGRAM
+      END
 ```
 Now the program allows the user to input a value when they run the program. So if the user wanted to convert five different temperatures there would be no need to re-compile the source code, the program would just be run five different times to yield the required output. Go ahead and copy the above program, compile it, then run it. Notice that when you run the program it just waits for your input. Type a value to have the program convert that temperature in Kelvin to degrees Celsius.
 

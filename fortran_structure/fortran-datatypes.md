@@ -23,8 +23,8 @@ In Fortran the best practice is to declare the type of each variable before you 
 ```fortran
       integer  i, j, k
       real  mslp, avg
-      character*5  name
-      logical  pass
+      character*5  fname
+      logical  flag
 ```
 Above the program defines three integer values (i, j, k), two real values (sum and avg), one character value with length 5 (name), and a logical variable (pass). If we were to use a variable that we haven't defined (e.g., temp) Fortran will go ahead and assume an implicit type based on the first letter of the variable.
 
@@ -37,8 +37,8 @@ So our variable `temp` would have an implicit type of real based on the implicit
       implicit none
       integer  i, j, k
       real  mslp, avg
-      character*5  name
-      logical  pass
+      character*5  fname
+      logical  flag
 ```
 The above variable definitions will only allow for those specific variables. If another variable was added somewhere in the code that was not defined it would yield a compilation error that says that variable (e.g., temp) has no implicity type. For example,
 ```

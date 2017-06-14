@@ -22,7 +22,7 @@ Recall that each time a Fortran program encounters a `READ` statement, it moves 
         REAL TEMP(4,3)
 
         OPEN(UNIT=12,FILE='data.dat',STATUS='unknown')
-  * skip first line header
+  ! skip first line header
         READ(12,*)
 
         DO row = 1,4

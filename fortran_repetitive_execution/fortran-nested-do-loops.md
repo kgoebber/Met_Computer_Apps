@@ -23,7 +23,7 @@ There will be times when you will need to loop over more than one variable, whic
 ```
 The output from the above code should be
 
-```fortran
+```linux
 Year = 2000   Month = 2
 Year = 2000   Month = 3
 Year = 2000   Month = 4

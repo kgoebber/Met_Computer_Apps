@@ -37,7 +37,7 @@ end do
 - Need to include a way to increment j WITHIN the loop!!!!
  - This must be done in order for the statement to be false at some point.
 
-```fortan
+```fortran
 j=10
 
 do while (j .lt. 15)
@@ -49,7 +49,7 @@ end do
 ```
 The output of the above code should be
 
-```fortran
+```linux
 J = 10
 J = 11
 J = 12

@@ -34,7 +34,7 @@ Remember that there is such a thing as a logical variable in Fortran, so the abo
 
       print *, "The statement is ",test
 
-      END PROGRAM
+      END
 ```
 The above program will yield the following output.
 

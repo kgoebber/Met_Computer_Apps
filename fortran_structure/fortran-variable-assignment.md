@@ -28,7 +28,7 @@ It will only store five characters when you go to assign the variable. So if we 
 
       print *, "My name is ", fname
 
-      END PROGRAM
+      END
 ```
 would yield the following output
 ```
