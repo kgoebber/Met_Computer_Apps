@@ -41,7 +41,7 @@
     * [Lists (Arrays)](python_syntax/lists_as_arrays.md)
     * [Tuples](python_syntax/tuples.md)
     * [Objects](python_syntax/objects.md)
-    * [Dictionaries](python_syntax/dict.md)
+    * [Dictionaries](python_syntax/dicts.md)
     * [Definitions](python_syntax/definitions.md)
     * [Built-In Functions](python_syntax/if-then.md)
 * [Reading in Python](reading_python/README.md)
