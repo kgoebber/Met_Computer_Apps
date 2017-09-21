@@ -18,7 +18,7 @@ print*, "Out of if"
 ```
 
 **Python**
-```py3
+```python
 a = 5
 b = 10
 if (a < b):
