@@ -43,7 +43,7 @@
     * [Objects](python_syntax/objects.md)
     * [Dictionaries](python_syntax/dicts.md)
     * [Definitions](python_syntax/definitions.md)
-    * [Built-In Functions](python_syntax/if-then.md)
+    * [Built-In Functions](python_syntax/built_in_functions.md)
 * [Reading in Python](reading_python/README.md)
     * [Commandline Reading](reading_python/reading-input-commandline.md)
     * [File Reading](reading_python/reading-input-files.md)
