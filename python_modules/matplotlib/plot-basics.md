@@ -18,4 +18,5 @@ In Jupyter Notebook it is also common to show your figure and can be done with t
 To save a figure [`plt.savefig(<figname>)`](https://matplotlib.org/api/pyplot_api.html#matplotlib.pyplot.savefig), where `<figname>` is an absolute or relative path with the name of the figure. The most common figure type is a `.png` image.
 
 Matplotlib also provides a nice [figure](https://matplotlib.org/mpl_examples/showcase/anatomy.png) that describes many of the different elements that you can set and is reproduced below.
+
 ![Anatomy of a Figure](https://matplotlib.org/mpl_examples/showcase/anatomy.png)
