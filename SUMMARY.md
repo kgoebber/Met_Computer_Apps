@@ -49,7 +49,7 @@
     * [File Reading](reading_python/reading-input-files.md)
 * [Python Modules](python_modules/README.md)
     * [Importing Modules](python_modules/importing_modules.md)
-    * [Import Part of a Module](python_modules/importing_module_parts.md)
+    * [Import Part of a Module](python_modules/import_module_parts.md)
     * [NumPY](python_modules/numpy/background-importing.md)
         * [Basic Functions](python_modules/numpy/basic-functions.md)
         * [Arrays](python_modules/numpy/numpy-array.md)
