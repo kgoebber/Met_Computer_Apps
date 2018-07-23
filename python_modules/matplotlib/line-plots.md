@@ -4,7 +4,7 @@ There are many different types of plots that can be made via the matplotlib modu
 
 Here is an example of a simple line plot using made-up temperature data. Where x is a variable containing our "time" array, y are a series of temperatures that occur at the various times. The shape (length) of x and y must be the same to be able to have matplotlib plot the line.
 
-```python_syntax
+```python
 import matplotlib.pyplot as plt
 
 x = [1,2,3,4,5,6,7,8,9,10]
