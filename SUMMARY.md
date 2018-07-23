@@ -55,3 +55,8 @@
         * [Arrays](python_modules/numpy/numpy-array.md)
         * [Slicing Arrays](python_modules/numpy/slicing-arrays.md)
         * [Input/Output](python_modules/numpy/numpy-io.md)
+    * [Matplotlib](python_modules/matplotlib/background-importing.md)
+        * [Plotting Basics](python_modules/matplotlib/basic-plots.md)
+        * [Line Plots](python_modules/matplotlib/line-plots.md)
+        * [Contour Plots](python_modules/matplotlib/contour-plots.md)
+        * [Rasterized Plotting](python_modules/matplotlib/pcolormesh-plots.md)
